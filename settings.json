@@ -1,0 +1,32 @@
+{
+    "workbench.colorTheme": "Cobalt2",
+    "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 17,
+    "editor.lineHeight": 25,
+    "editor.letterSpacing": 0.5,
+    "files.trimTrailingWhitespace": true,
+    "editor.fontWeight": "400",
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 3,
+    "editor.cursorBlinking": "solid",
+    "vscode_custom_css.policy": true,
+    "vscode_custom_css.imports": [
+        "file:///C:/Users/futab/AppData/Roaming/Code/User/cobalt2-custom-hacks.css"
+    ],
+
+    "window.menuBarVisibility": "toggle",
+    "window.titleBarStyle": "custom",
+    "window.zoomLevel": 0,
+    "workbench.startupEditor": "newUntitledFile",
+    "git.ignoreMissingGitWarning": true,
+    "search.exclude": {
+        "**/node_modules": true
+    },
+    "workbench.sideBar.location": "right",
+    "editor.renderWhitespace": "all",
+    "pasteImage.defaultName": "",
+    "files.exclude": {
+        "**/node_modules": true,
+        "**/.git": false
+    },
+}
