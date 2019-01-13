@@ -1,0 +1,11 @@
+Angular.ng-template
+be5invis.vscode-custom-css
+christian-kohler.path-intellisense
+CoenraadS.bracket-pair-colorizer
+dbaeumer.vscode-eslint
+HookyQR.beautify
+Mikael.Angular-BeastCode
+msjsdiag.debugger-for-chrome
+WallabyJs.quokka-vscode
+wesbos.theme-cobalt2
+xabikos.JavaScriptSnippets
