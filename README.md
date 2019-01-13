@@ -1,5 +1,6 @@
 # vscode-user-settings
 personal settings for VSCode to keep them in sync across computers
+content of C:\Users\username\AppData\Roaming\Code\User folder
 
 # Notes
 - cobalt2-custom-hacks.css is an unodified version of [css file](https://github.com/wesbos/cobalt2-vscode/blob/master/cobalt2-custom-hacks.css) from official [cobalt2 theme](https://github.com/wesbos/cobalt2)
