@@ -17,16 +17,18 @@
     "window.menuBarVisibility": "toggle",
     "window.titleBarStyle": "custom",
     "window.zoomLevel": 0,
-    "workbench.startupEditor": "newUntitledFile",
+    "workbench.startupEditor": "none",
     "git.ignoreMissingGitWarning": true,
     "search.exclude": {
         "**/node_modules": true
     },
     "workbench.sideBar.location": "right",
+    "workbench.editor.tabSizing": "shrink",
     "editor.renderWhitespace": "all",
     "[markdown]": {
         "files.trimTrailingWhitespace": false
     },
+    "files.enableTrash": false,
     "files.exclude": {
         "**/node_modules": true,
         "**/.git": false
