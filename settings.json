@@ -24,7 +24,9 @@
     },
     "workbench.sideBar.location": "right",
     "editor.renderWhitespace": "all",
-    "pasteImage.defaultName": "",
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false
+    },
     "files.exclude": {
         "**/node_modules": true,
         "**/.git": false
