@@ -1,5 +1,5 @@
 # vscode-user-settings
-personal settings for VSCode to keep them in sync across computers
+my settings for VSCode to keep them in sync across computers  
 content of C:\Users\username\AppData\Roaming\Code\User folder
 
 # Notes
