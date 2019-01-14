@@ -1,0 +1,71 @@
+{
+    "search.exclude": {
+        "**/node_modules": true,
+    },
+    "window.titleBarStyle": "custom",
+    "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?",
+    "typescript.implementationsCodeLens.enabled": false,
+    "typescript.referencesCodeLens.enabled": false,
+    "typescriptHero.imports.stringQuoteStyle": "\"",
+    
+    "editor.fontSize": 18,
+
+    // Defines space handling after a comma delimiter.
+    "typescript.format.insertSpaceAfterCommaDelimiter": true,
+  
+    // Defines space handling after the constructor keyword. Requires TypeScript >= 2.3.0.
+    "typescript.format.insertSpaceAfterConstructor": false,
+  
+    //  Defines space handling after a semicolon in a for statement.
+    "typescript.format.insertSpaceAfterSemicolonInForStatements": true,
+  
+    // Defines space handling after a binary operator.
+    "typescript.format.insertSpaceBeforeAndAfterBinaryOperators": true,
+  
+    // Defines space handling after keywords in a control flow statement.
+    "typescript.format.insertSpaceAfterKeywordsInControlFlowStatements": true,
+  
+    // Defines space handling after function keyword for anonymous functions.
+    "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+  
+    // Defines space handling before function argument parentheses. Requires TypeScript >= 2.1.5.
+    "typescript.format.insertSpaceBeforeFunctionParenthesis": false,
+  
+    // Defines space handling after opening and before closing non empty parenthesis.
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+  
+    // Defines space handling after opening and before closing non empty brackets.
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
+  
+    // Defines space handling after opening and before closing non empty braces. Requires TypeScript >= 2.3.0.
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+  
+    // Defines space handling after opening and before closing template string braces. Requires TypeScript >= 2.0.6.
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+  
+    // Defines space handling after opening and before closing JSX expression braces. Requires TypeScript >= 2.0.6.
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": false,
+  
+    // Defines space handling after type assertions in TypeScript. Requires TypeScript >= 2.4.
+    "typescript.format.insertSpaceAfterTypeAssertion": false,
+    "team.showWelcomeMessage": false,
+    "window.zoomLevel": 0,
+    "extensions.ignoreRecommendations": false,
+    "workbench.statusBar.feedback.visible": false,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.defaultDateFormat": "YYYY/MMMM/D/H:mm",
+    "gitlens.mode.active": "zen",
+    "editor.tabSize": 4,
+    "breadcrumbs.enabled": true,
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": false,
+    "workbench.editor.tabSizing": "shrink",
+    "files.autoSave": "off",
+    "workbench.colorTheme": "Cobalt2"
+    // "emmet.triggerExpansionOnTab": true,
+    // "emmet.showSuggestionsAsSnippets": true
+}
