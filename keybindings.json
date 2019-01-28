@@ -3,5 +3,10 @@
       "key": "ctrl+alt+f",
       "command": "HookyQR.beautify",
       "when": "editorFocus"
-    }
+   },
+   {
+      "key": "ctrl+e",
+      "command": "editor.action.showHover",
+      "when": "editorTextFocus"
+   }
 ]
