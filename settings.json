@@ -1,36 +1,50 @@
 {
-    "workbench.colorTheme": "Cobalt2",
-    "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontSize": 17,
-    "editor.lineHeight": 25,
-    "editor.letterSpacing": 0.5,
-    "files.trimTrailingWhitespace": true,
-    "editor.fontWeight": "400",
-    "editor.cursorStyle": "line",
-    "editor.cursorWidth": 3,
-    "editor.cursorBlinking": "solid",
-    "vscode_custom_css.policy": true,
-    "vscode_custom_css.imports": [
-        "file:///C:/Users/futab/AppData/Roaming/Code/User/cobalt2-custom-hacks.css"
-    ],
-
-    "window.menuBarVisibility": "toggle",
-    "window.titleBarStyle": "custom",
-    "window.zoomLevel": 0,
-    "workbench.startupEditor": "none",
-    "git.ignoreMissingGitWarning": true,
-    "search.exclude": {
-        "**/node_modules": true
-    },
-    "workbench.sideBar.location": "right",
-    "workbench.editor.tabSizing": "shrink",
-    "editor.renderWhitespace": "all",
-    "[markdown]": {
-        "files.trimTrailingWhitespace": false
-    },
-    "files.enableTrash": false,
-    "files.exclude": {
-        "**/node_modules": true,
-        "**/.git": false
-    },
+  "workbench.colorTheme": "Cobalt2",
+  "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 17,
+  "editor.lineHeight": 30,
+  "editor.letterSpacing": 0.5,
+  "files.trimTrailingWhitespace": true,
+  "editor.fontWeight": "400",
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 3,
+  "editor.cursorBlinking": "solid",
+  "vscode_custom_css.policy": true,
+  "vscode_custom_css.imports": [
+    "file:///C:/Users/futab/AppData/Roaming/Code/User/cobalt2-custom-hacks.css"
+  ],
+  "window.menuBarVisibility": "toggle",
+  "window.titleBarStyle": "custom",
+  "window.zoomLevel": 0,
+  "workbench.startupEditor": "none",
+  "git.ignoreMissingGitWarning": true,
+  "search.exclude": {
+    "**/node_modules": true
+  },
+  "workbench.sideBar.location": "right",
+  "workbench.editor.tabSizing": "shrink",
+  "editor.renderWhitespace": "all",
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
+  "files.enableTrash": false,
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/.git": false
+  },
+  "editor.formatOnSave": false,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[typescript]": {
+    "editor.formatOnSave": false
+  },
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": false,
+  "eslint.enable": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.run": "onType",
+  "editor.minimap.enabled": false,
+  "files.insertFinalNewline": true,
 }
