@@ -8,5 +8,41 @@
       "key": "ctrl+e",
       "command": "editor.action.showHover",
       "when": "editorTextFocus"
+   },
+   {
+      "key": "ctrl+alt+shift+n",
+      "command": "workbench.action.files.showOpenedFileInNewWindow"
+   },
+   {
+      "key": "ctrl+n",
+      "command": "explorer.newFile"
+   },
+   {
+      "key": "ctrl+alt+d",
+      "command": "editor.action.goToTypeDefinition"
+   },
+   {
+      "key": "ctrl+alt+b",
+      "command": "bookmarks.toggle"
+   },
+   {
+      "key": "ctrl+alt+j",
+      "command": "bookmarks.jumpToNext"
+   },
+   {
+      "key": "ctrl+alt+k",
+      "command": "bookmarks.jumpToPrevious"
+   },
+   {
+      "key": "ctrl+alt+i",
+      "command": "bookmarks.list"
+   },
+   {
+      "key": "ctrl+alt+w",
+      "command": "workbench.action.closeEditorsInGroup"
+   },
+   {
+      "key": "ctrl+alt+c",
+      "command": "workbench.action.closeActiveEditor"
    }
 ]

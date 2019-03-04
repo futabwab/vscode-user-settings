@@ -1,8 +1,10 @@
 {
   "workbench.colorTheme": "Cobalt2",
-  "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
   "editor.fontSize": 17,
   "editor.lineHeight": 30,
+  "explorer.autoReveal": true,
   "editor.letterSpacing": 0.5,
   "files.trimTrailingWhitespace": true,
   "editor.fontWeight": "400",
@@ -29,7 +31,7 @@
   },
   "files.enableTrash": false,
   "files.exclude": {
-    "**/node_modules": true,
+    "**/node_modules": false,
     "**/.git": false
   },
   "editor.formatOnSave": false,
@@ -39,12 +41,12 @@
   "[typescript]": {
     "editor.formatOnSave": false
   },
-  "editor.formatOnPaste": true,
+  "editor.formatOnPaste": false,
   "editor.formatOnType": false,
-  "eslint.enable": true,
-  "eslint.autoFixOnSave": true,
-  "eslint.alwaysShowStatus": true,
-  "eslint.run": "onType",
   "editor.minimap.enabled": false,
   "files.insertFinalNewline": true,
+  "vim.useSystemClipboard": true,
+  "vim.foldfix": true,
+  "liveshare.connectionMode": "relay",
+  "breadcrumbs.enabled": false,
 }
