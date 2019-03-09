@@ -18,6 +18,10 @@
       "command": "workbench.action.terminal.toggleTerminal"
    },
    {
+      "key": "ctrl+shift+y",
+      "command": "workbench.action.keepEditor"
+   },
+   {
       "key": "ctrl+shift+u",
       "command": "workbench.action.moveEditorLeftInGroup"
    },
@@ -26,10 +30,21 @@
       "command": "workbench.action.moveEditorRightInGroup"
    },
    {
+      "key": "ctrl+shift+o",
+      "command": "workbench.action.closeEditorsToTheRight"
+   },
+   {
       "key": "ctrl+shift+n",
       "command": "explorer.newFile"
    },
-
+   {
+      "key": "ctrl+shift+s",
+      "command": "workbench.action.files.save"
+   },
+   {
+      "key": "ctrl+shift+a",
+      "command": "workbench.action.files.saveAll"
+   },
    // Code
    // ctrl+alt+<char>
    {
@@ -41,7 +56,14 @@
       "key": "ctrl+alt+d",
       "command": "editor.action.revealDefinition"
    },
-
+   {
+      "key": "ctrl+alt+g",
+      "command": "workbench.action.gotoLine"
+   },
+   {
+      "key": "ctrl+alt+f",
+      "command": "workbench.action.gotoSymbol"
+   },
    // Bookmarks extension commands
    {
       "key": "ctrl+alt+b",
@@ -59,7 +81,6 @@
       "key": "ctrl+alt+i",
       "command": "bookmarks.list"
    },
-
    // Rare commands
    // ctrl+alt+shift+<char>
    {
