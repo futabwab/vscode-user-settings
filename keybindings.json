@@ -18,6 +18,14 @@
       "command": "workbench.action.terminal.toggleTerminal"
    },
    {
+      "key": "ctrl+shift+u",
+      "command": "workbench.action.moveEditorLeftInGroup"
+   },
+   {
+      "key": "ctrl+shift+i",
+      "command": "workbench.action.moveEditorRightInGroup"
+   },
+   {
       "key": "ctrl+shift+n",
       "command": "explorer.newFile"
    },
