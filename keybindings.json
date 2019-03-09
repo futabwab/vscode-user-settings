@@ -1,26 +1,40 @@
 [
+   // Hihglevel commands
+   // ctrl+shift+<char>
    {
-      "key": "ctrl+alt+f",
-      "command": "HookyQR.beautify",
-      "when": "editorFocus"
+      "key": "ctrl+shift+c",
+      "command": "workbench.action.closeEditorsInGroup"
    },
    {
-      "key": "ctrl+e",
+      "key": "ctrl+shift+w",
+      "command": "workbench.action.closeActiveEditor"
+   },
+   {
+      "key": "ctrl+shift+l",
+      "command": "workbench.action.toggleSidebarVisibility"
+   },
+   {
+      "key": "ctrl+shift+j",
+      "command": "workbench.action.terminal.toggleTerminal"
+   },
+   {
+      "key": "ctrl+shift+n",
+      "command": "explorer.newFile"
+   },
+
+   // Code
+   // ctrl+alt+<char>
+   {
+      "key": "ctrl+alt+s",
       "command": "editor.action.showHover",
       "when": "editorTextFocus"
    },
    {
-      "key": "ctrl+alt+shift+n",
-      "command": "workbench.action.files.showOpenedFileInNewWindow"
-   },
-   {
-      "key": "ctrl+n",
-      "command": "explorer.newFile"
-   },
-   {
       "key": "ctrl+alt+d",
-      "command": "editor.action.goToTypeDefinition"
+      "command": "editor.action.revealDefinition"
    },
+
+   // Bookmarks extension commands
    {
       "key": "ctrl+alt+b",
       "command": "bookmarks.toggle"
@@ -37,12 +51,11 @@
       "key": "ctrl+alt+i",
       "command": "bookmarks.list"
    },
+
+   // Rare commands
+   // ctrl+alt+shift+<char>
    {
-      "key": "ctrl+alt+w",
-      "command": "workbench.action.closeEditorsInGroup"
+      "key": "ctrl+alt+shift+n",
+      "command": "workbench.action.files.showOpenedFileInNewWindow"
    },
-   {
-      "key": "ctrl+alt+c",
-      "command": "workbench.action.closeActiveEditor"
-   }
 ]
