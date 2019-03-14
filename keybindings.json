@@ -1,5 +1,16 @@
 // reference: https://code.visualstudio.com/docs/getstarted/keybindings
 [
+   // Scrolling
+   // ctrl+<char>
+   // todo figure out right combo so it's not fighting with bookmarks - maybe move bookmarks one key row lower
+   // {
+   //    "key": "ctrl+alt+j",
+   //    "command": "scrollLineDown"
+   // },
+   // {
+   //    "key": "ctrl+alt+k",
+   //    "command": "scrollLineUp"
+   // },
    // Hihglevel commands
    // ctrl+shift+<char>
    {
@@ -65,6 +76,14 @@
       "key": "ctrl+alt+f",
       "command": "workbench.action.gotoSymbol"
    },
+   {
+      "key": "ctrl+alt+n",
+      "command": "editor.action.marker.nextInFiles"
+   },
+   {
+      "key": "ctrl+alt+r",
+      "command": "editor.action.referenceSearch.trigger"
+   },
    // Bookmarks extension commands
    {
       "key": "ctrl+alt+b",
@@ -87,5 +106,9 @@
    {
       "key": "ctrl+alt+shift+n",
       "command": "workbench.action.files.showOpenedFileInNewWindow"
+   },
+   {
+      "key": "ctrl+alt+shift+c",
+      "command": "workbench.action.files.copyPathOfActiveFile"
    },
 ]
