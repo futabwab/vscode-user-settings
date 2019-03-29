@@ -1,114 +1,124 @@
 // reference: https://code.visualstudio.com/docs/getstarted/keybindings
 [
-   // Scrolling
-   // ctrl+<char>
-   // todo figure out right combo so it's not fighting with bookmarks - maybe move bookmarks one key row lower
-   // {
-   //    "key": "ctrl+alt+j",
-   //    "command": "scrollLineDown"
-   // },
-   // {
-   //    "key": "ctrl+alt+k",
-   //    "command": "scrollLineUp"
-   // },
-   // Hihglevel commands
-   // ctrl+shift+<char>
-   {
-      "key": "ctrl+shift+x",
-      "command": "workbench.action.closeEditorsInGroup"
-   },
-   {
-      "key": "ctrl+shift+w",
-      "command": "workbench.action.closeActiveEditor"
-   },
-   {
-      "key": "ctrl+shift+l",
-      "command": "workbench.action.toggleSidebarVisibility"
-   },
-   {
-      "key": "ctrl+shift+j",
-      "command": "workbench.action.terminal.toggleTerminal"
-   },
-   {
-      "key": "ctrl+shift+y",
-      "command": "workbench.action.keepEditor"
-   },
-   {
-      "key": "ctrl+shift+u",
-      "command": "workbench.action.moveEditorLeftInGroup"
-   },
-   {
-      "key": "ctrl+shift+i",
-      "command": "workbench.action.moveEditorRightInGroup"
-   },
-   {
-      "key": "ctrl+shift+o",
-      "command": "workbench.action.closeEditorsToTheRight"
-   },
-   {
-      "key": "ctrl+shift+n",
-      "command": "explorer.newFile"
-   },
-   {
-      "key": "ctrl+shift+s",
-      "command": "workbench.action.files.save"
-   },
-   {
-      "key": "ctrl+shift+a",
-      "command": "workbench.action.files.saveAll"
-   },
-   // Code
-   // ctrl+alt+<char>
-   {
-      "key": "ctrl+alt+s",
-      "command": "editor.action.showHover",
-      "when": "editorTextFocus"
-   },
-   {
-      "key": "ctrl+alt+d",
-      "command": "editor.action.revealDefinition"
-   },
-   {
-      "key": "ctrl+alt+g",
-      "command": "workbench.action.gotoLine"
-   },
-   {
-      "key": "ctrl+alt+f",
-      "command": "workbench.action.gotoSymbol"
-   },
-   {
-      "key": "ctrl+alt+n",
-      "command": "editor.action.marker.nextInFiles"
-   },
-   {
-      "key": "ctrl+alt+r",
-      "command": "editor.action.referenceSearch.trigger"
-   },
-   // Bookmarks extension commands
-   {
-      "key": "ctrl+alt+b",
-      "command": "bookmarks.toggle"
-   },
-   {
-      "key": "ctrl+alt+j",
-      "command": "bookmarks.jumpToNext"
-   },
-   {
-      "key": "ctrl+alt+k",
-      "command": "bookmarks.jumpToPrevious"
-   },
-   {
-      "key": "ctrl+alt+i",
-      "command": "bookmarks.list"
-   },
-   // Rare commands
-   // ctrl+alt+shift+<char>
-   {
-      "key": "ctrl+alt+shift+n",
-      "command": "workbench.action.files.showOpenedFileInNewWindow"
-   },
-   {
-      "key": "ctrl+alt+shift+c",
-      "command": "workbench.action.files.copyPathOfActiveFile"
-   },
+  // Scrolling
+  // ctrl+<char>
+  // todo figure out right combo so it's not fighting with bookmarks - maybe move bookmarks one key row lower
+  // {
+  //    "key": "ctrl+alt+j",
+  //    "command": "scrollLineDown"
+  // },
+  // {
+  //    "key": "ctrl+alt+k",
+  //    "command": "scrollLineUp"
+  // },
+  // Hihglevel commands
+  // ctrl+shift+<char>
+  {
+    "key": "ctrl+shift+x",
+    "command": "workbench.action.closeEditorsInGroup"
+  },
+  {
+    "key": "ctrl+shift+w",
+    "command": "workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "ctrl+shift+l",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "ctrl+shift+j",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+shift+y",
+    "command": "workbench.action.keepEditor"
+  },
+  {
+    "key": "ctrl+shift+u",
+    "command": "workbench.action.moveEditorLeftInGroup"
+  },
+  {
+    "key": "ctrl+shift+i",
+    "command": "workbench.action.moveEditorRightInGroup"
+  },
+  {
+    "key": "ctrl+shift+o",
+    "command": "workbench.action.closeEditorsToTheRight"
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "explorer.newFile"
+  },
+  {
+    "key": "ctrl+shift+s",
+    "command": "workbench.action.files.save"
+  },
+  {
+    "key": "ctrl+shift+a",
+    "command": "workbench.action.files.saveAll"
+  },
+  // Code
+  // ctrl+alt+<char>
+  {
+    "key": "ctrl+alt+s",
+    "command": "editor.action.showHover",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+d",
+    "command": "editor.action.revealDefinition"
+  },
+  {
+    "key": "ctrl+alt+g",
+    "command": "workbench.action.gotoLine"
+  },
+  {
+    "key": "ctrl+alt+f",
+    "command": "workbench.action.gotoSymbol"
+  },
+  {
+    "key": "ctrl+alt+n",
+    "command": "editor.action.marker.nextInFiles"
+  },
+  {
+    "key": "ctrl+alt+r",
+    "command": "editor.action.referenceSearch.trigger"
+  },
+  // Bookmarks extension commands
+  {
+    "key": "ctrl+alt+b",
+    "command": "bookmarks.toggle"
+  },
+  {
+    "key": "ctrl+alt+j",
+    "command": "bookmarks.jumpToNext"
+  },
+  {
+    "key": "ctrl+alt+k",
+    "command": "bookmarks.jumpToPrevious"
+  },
+  {
+    "key": "ctrl+alt+i",
+    "command": "bookmarks.list"
+  },
+  // Partial diff extension commands
+  {
+    "key": "ctrl+alt+shift+u",
+    "command": "extension.partialDiff.markSection1"
+  },
+  {
+    "key": "ctrl+alt+shift+i",
+    "command": "extension.partialDiff.markSection2AndTakeDiff"
+  },
+
+  // Rare commands
+  // ctrl+alt+shift+<char>
+  {
+    "key": "ctrl+alt+shift+n",
+    "command": "workbench.action.files.showOpenedFileInNewWindow"
+  },
+  {
+    "key": "ctrl+alt+shift+c",
+    "command": "workbench.action.files.copyPathOfActiveFile"
+  }
 ]
