@@ -110,7 +110,6 @@
     "key": "ctrl+alt+shift+i",
     "command": "extension.partialDiff.markSection2AndTakeDiff"
   },
-
   // Rare commands
   // ctrl+alt+shift+<char>
   {
@@ -120,5 +119,14 @@
   {
     "key": "ctrl+alt+shift+c",
     "command": "workbench.action.files.copyPathOfActiveFile"
-  }
+  },
+  // DS4 integration
+  // - options button
+  // when not in explorer focus then show file explorer using default vscode binding ctrl+shift+e
+  // when in explorer focus then hide the sidebar completely
+  {
+    "key": "ctrl+shift+e",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "explorerViewletFocus"
+  },
 ]
