@@ -1,16 +1,5 @@
 // reference: https://code.visualstudio.com/docs/getstarted/keybindings
 [
-  // Scrolling
-  // ctrl+<char>
-  // todo figure out right combo so it's not fighting with bookmarks - maybe move bookmarks one key row lower
-  // {
-  //    "key": "ctrl+alt+j",
-  //    "command": "scrollLineDown"
-  // },
-  // {
-  //    "key": "ctrl+alt+k",
-  //    "command": "scrollLineUp"
-  // },
   // Hihglevel commands
   // ctrl+shift+<char>
   {
@@ -57,6 +46,29 @@
     "key": "ctrl+shift+a",
     "command": "workbench.action.files.saveAll"
   },
+  {
+    "key": "ctrl+shift+e",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "explorerViewletFocus"
+  },
+  {
+    "key": "ctrl+shift+backspace",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "sideBarVisible"
+  },
+  {
+    "key": "ctrl+shift+c",
+    "command": "workbench.action.terminal.openNativeConsole",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+h",
+    "command": "workbench.action.terminal.newWithCwd",
+    "args": {
+      "cwd": "${fileDirname}"
+    },
+    "when": "!terminalFocus"
+  },
   // Code
   // ctrl+alt+<char>
   {
@@ -77,6 +89,18 @@
     "command": "workbench.action.gotoSymbol"
   },
   {
+    "key": "ctrl+alt+m",
+    "command": "scrollLineDown"
+  },
+  {
+    "key": "ctrl+alt+,",
+    "command": "scrollLineUp"
+  },
+  {
+    "key": "ctrl+alt+h",
+    "command": "editor.action.startFindReplaceAction"
+  },
+  {
     "key": "ctrl+alt+n",
     "command": "editor.action.marker.nextInFiles"
   },
@@ -84,9 +108,13 @@
     "key": "ctrl+alt+r",
     "command": "editor.action.referenceSearch.trigger"
   },
+  {
+    "key": "ctrl+alt+enter",
+    "command": "editor.action.openLink"
+  },
   // Bookmarks extension commands
   {
-    "key": "ctrl+alt+b",
+    "key": "ctrl+alt+l",
     "command": "bookmarks.toggle"
   },
   {
@@ -98,7 +126,7 @@
     "command": "bookmarks.jumpToPrevious"
   },
   {
-    "key": "ctrl+alt+i",
+    "key": "ctrl+alt+;",
     "command": "bookmarks.list"
   },
   // Partial diff extension commands
@@ -119,14 +147,5 @@
   {
     "key": "ctrl+alt+shift+c",
     "command": "workbench.action.files.copyPathOfActiveFile"
-  },
-  // DS4 integration
-  // - options button
-  // when not in explorer focus then show file explorer using default vscode binding ctrl+shift+e
-  // when in explorer focus then hide the sidebar completely
-  {
-    "key": "ctrl+shift+e",
-    "command": "workbench.action.toggleSidebarVisibility",
-    "when": "explorerViewletFocus"
   },
 ]
