@@ -15,11 +15,11 @@
   // "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "'Victor Mono', 'Fira Code iScript','Fira Code', Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
-  "editor.fontSize": 14,
-  "editor.fontWeight": "400",
+  "editor.fontSize": 18,
+  "editor.fontWeight": "200",
   "editor.formatOnSave": true,
   "editor.letterSpacing": 0.5,
-  "editor.lineHeight": 20,
+  "editor.lineHeight": 22,
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "all",
   "eslint.autoFixOnSave": true,
@@ -57,14 +57,14 @@
   "window.restoreWindows": "none",
   "window.title": "${rootName}",
   "window.titleBarStyle": "custom",
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 1.2,
   "workbench.activityBar.visible": false,
   "workbench.colorCustomizations": {
     "[Cobalt2]": {
       "gitDecoration.ignoredResourceForeground": "#808080"
     }
   },
-  "workbench.colorTheme": "Night Owl",
+  "workbench.colorTheme": "Night Owl (No Italics)",
   "workbench.editor.tabSizing": "shrink",
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
