@@ -64,9 +64,12 @@
       "gitDecoration.ignoredResourceForeground": "#808080"
     }
   },
-  "workbench.colorTheme": "Night Owl (No Italics)",
   "workbench.editor.tabSizing": "shrink",
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
-  "terminal.integrated.rendererType": "dom"
+  "terminal.integrated.rendererType": "dom",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "Gatito Theme"
 }
